@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pappersflygplan + sol: enkel reseikon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#F29E4C"
+        android:pathData="M70,38m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,56 L78,36 L64,76 L55,61 Z" />
+    <path
+        android:fillColor="#CFE8F3"
+        android:pathData="M55,61 L78,36 L50,72 Z" />
+</vector>

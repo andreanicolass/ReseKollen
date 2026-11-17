@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Svenska (standard). Engelska finns i values-en/strings.xml -->
+<resources>
+    <string name="app_name">ReseKollen</string>
+
+    <!-- Navigering -->
+    <string name="tab_destination">Resmål</string>
+    <string name="tab_currency">Valuta</string>
+    <string name="tab_favorites">Favoriter</string>
+    <string name="subtitle_destination">Väder &amp; packtips</string>
+    <string name="subtitle_currency">Live-växelkurser</string>
+    <string name="subtitle_favorites">Dina sparade resmål</string>
+    <string name="change_language">Byt språk till engelska</string>
+    <string name="language_toggle_label">🇬🇧 EN</string>
+
+    <!-- Gemensamt -->
+    <string name="retry">Försök igen</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="close">Stäng</string>
+    <string name="clear">Rensa</string>
+
+    <!-- Resmål -->
+    <string name="search_hint">Vart ska du resa?</string>
+    <string-array name="popular_destinations">
+        <item>Barcelona</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>New York</item>
+        <item>Tokyo</item>
+        <item>Bangkok</item>
+        <item>Rom</item>
+        <item>Oslo</item>
+        <item>Dubai</item>
+        <item>Reykjavik</item>
+    </string-array>
+    <string name="empty_destination_title">Planera din nästa resa</string>
+    <string name="empty_destination_text">Sök på en stad för att se vädret och prognosen för veckan, vad du ska packa och vad den lokala valutan är värd i kronor.</string>
+    <string name="favorite_add">Spara som favorit</string>
+    <string name="favorite_remove">Ta bort favorit</string>
+    <string name="local_time">Lokal tid %1$s</string>
+    <string name="forecast_title">Prognos %1$d dagar</string>
+    <string name="today">Idag</string>
+    <string name="tomorrow">Imorgon</string>
+    <string name="now_title">Just nu</string>
+    <string name="feels_like">Känns som</string>
+    <string name="wind">Vind</string>
+    <string name="humidity">Luftfuktighet</string>
+    <string name="precipitation">Nederbörd</string>
+    <string name="uv_index">UV-index</string>
+    <string name="visibility">Sikt</string>
+    <string name="uv_low">%1$d (lågt)</string>
+    <string name="uv_moderate">%1$d (måttligt)</string>
+    <string name="uv_high">%1$d (högt)</string>
+    <string name="uv_very_high">%1$d (mycket högt)</string>
+    <string-array name="wind_directions">
+        <item>N</item><item>NÖ</item><item>Ö</item><item>SÖ</item>
+        <item>S</item><item>SV</item><item>V</item><item>NV</item>
+    </string-array>
+    <string name="packing_title">Packtips för %1$s</string>
+    <string name="local_currency_title">Valuta på resmålet</string>
+    <string name="currency_unknown">Vi känner inte till valutan för %1$s. Använd fliken Valuta för att räkna om.</string>
+    <string name="currency_unknown_country">landet</string>
+    <string name="currency_same_as_home">🇸🇪 Här betalar du med svenska kronor – ingen växling behövs!</string>
+    <string name="currency_no_rate">Ingen kurs hittades för %1$s.</string>
+    <string name="travel_money_label">Reskassa i SEK</string>
+    <string name="kr_suffix">kr</string>
+    <string name="enter_amount">Skriv ett belopp</string>
+    <string name="rate_source">Kurs från exchangerate.host • %1$s</string>
+    <string name="data_sources">Väderdata: Open-Meteo • Valutakurser: exchangerate.host</string>
+
+    <!-- Valuta -->
+    <string name="converter_title">Valutaomvandlare</string>
+    <string name="amount">Belopp</string>
+    <string name="swap">Byt plats</string>
+    <string name="invalid_amount">Skriv ett giltigt belopp</string>
+    <string name="popular_currencies_title">Populära valutor i kronor</string>
+    <string name="amount_in_sek">%1$s kr</string>
+    <string name="rates_footer">Live-kurser från exchangerate.host\nPublicerade %1$s</string>
+    <string name="choose_currency">Välj valuta</string>
+    <string name="currency_search_hint">Sök, t.ex. euro eller JPY</string>
+
+    <!-- Favoriter -->
+    <string name="favorites_empty_title">Inga sparade resmål än</string>
+    <string name="favorites_empty_text">Sök på en stad och tryck på stjärnan för att spara den här. Perfekt för resor du planerar!</string>
+    <string name="favorites_hint">Tryck på ett resmål för att hämta det senaste vädret.</string>
+    <string name="favorite_delete">Ta bort %1$s</string>
+
+    <!-- Väder (WMO-koder) -->
+    <string name="weather_clear_day">Klart och soligt</string>
+    <string name="weather_clear_night">Klart</string>
+    <string name="weather_mainly_clear">Mestadels klart</string>
+    <string name="weather_partly_cloudy">Halvklart</string>
+    <string name="weather_overcast">Mulet</string>
+    <string name="weather_fog">Dimma</string>
+    <string name="weather_drizzle">Duggregn</string>
+    <string name="weather_freezing_drizzle">Underkylt duggregn</string>
+    <string name="weather_light_rain">Lätt regn</string>
+    <string name="weather_rain">Regn</string>
+    <string name="weather_heavy_rain">Kraftigt regn</string>
+    <string name="weather_freezing_rain">Underkylt regn</string>
+    <string name="weather_light_snow">Lätt snöfall</string>
+    <string name="weather_snow">Snöfall</string>
+    <string name="weather_heavy_snow">Kraftigt snöfall</string>
+    <string name="weather_snow_grains">Kornsnö</string>
+    <string name="weather_rain_showers">Regnskurar</string>
+    <string name="weather_heavy_showers">Kraftiga skurar</string>
+    <string name="weather_violent_showers">Skyfall</string>
+    <string name="weather_snow_showers">Snöbyar</string>
+    <string name="weather_thunder">Åska</string>
+    <string name="weather_thunder_hail">Åska med hagel</string>
+    <string name="weather_unknown">Väder</string>
+
+    <!-- Packtips -->
+    <string name="tip_winter">🧥 Rejäl vinterjacka, mössa, vantar och varma skor</string>
+    <string name="tip_warm_jacket">🧣 Varm jacka, halsduk och mössa</string>
+    <string name="tip_jacket">🧥 Jacka eller tjock tröja till kvällarna</string>
+    <string name="tip_light_sweater">👕 Tunn tröja räcker till kvällen</string>
+    <string name="tip_shorts">🩳 Lätta kläder, shorts och sandaler</string>
+    <string name="tip_umbrella_days">☂️ Paraply – regn väntas %1$d av %2$d dagar</string>
+    <string name="tip_umbrella">☂️ Paraply eller regnjacka</string>
+    <string name="tip_snow_shoes">🥾 Vattentäta skor med bra grepp</string>
+    <string name="tip_thunder">⚡ Åska i prognosen – håll koll på flygstatus</string>
+    <string name="tip_sunscreen">🧴 Solkräm med hög faktor och solglasögon</string>
+    <string name="tip_sunglasses">🕶️ Solglasögon</string>
+    <string name="tip_water">💧 Vattenflaska – drick mycket</string>
+    <string name="tip_wind">🌬️ Blåsigt – vindtät jacka</string>
+    <string name="tip_feels_like">🌡️ Känns som %1$d° just nu – klä dig efter det</string>
+
+    <!-- Felmeddelanden -->
+    <string name="error_enter_city">Skriv in en stad, t.ex. \"Barcelona\".</string>
+    <string name="error_place_not_found">Hittade ingen plats som heter \"%1$s\". Kontrollera stavningen.</string>
+    <string name="error_incomplete_weather">Vädertjänsten skickade ofullständig data för %1$s.</string>
+    <string name="error_weather_reason">Vädertjänsten svarade: %1$s</string>
+    <string name="error_weather_http">Vädertjänsten svarade med fel (HTTP %1$d).</string>
+    <string name="error_weather_offline">Kunde inte nå vädertjänsten. Kontrollera din internetanslutning.</string>
+    <string name="error_rates_missing_key">Exchangerate-nyckel saknas. Lägg in EXCHANGERATE_KEY i local.properties och bygg om appen.</string>
+    <string name="error_rates_offline">Kunde inte nå valutatjänsten. Kontrollera din internetanslutning.</string>
+    <string name="error_rates_http">Valutatjänsten svarade med fel (HTTP %1$d).</string>
+    <string name="error_rates_empty">Valutatjänsten skickade inga kurser.</string>
+    <string name="error_rates_invalid_key">API-nyckeln för valutakurserna godkänns inte. Kontrollera nyckeln i local.properties och att kontot är bekräftat via e-post.</string>
+    <string name="error_rates_inactive">API-kontot är inaktivt. Logga in på exchangerate.host och kontrollera kontot.</string>
+    <string name="error_rates_limit">Månadsgränsen för gratisplanen är nådd. Försök igen nästa månad.</string>
+    <string name="error_rates_not_in_plan">Funktionen ingår inte i gratisplanen.</string>
+    <string name="error_rates_other">Något gick fel när valutakurserna skulle hämtas: %1$s</string>
+    <string name="error_unknown">Något gick fel. Försök igen.</string>
+</resources>

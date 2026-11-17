@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English -->
+<resources>
+    <string name="app_name">ReseKollen</string>
+
+    <!-- Navigation -->
+    <string name="tab_destination">Destination</string>
+    <string name="tab_currency">Currency</string>
+    <string name="tab_favorites">Favourites</string>
+    <string name="subtitle_destination">Weather &amp; packing tips</string>
+    <string name="subtitle_currency">Live exchange rates</string>
+    <string name="subtitle_favorites">Your saved destinations</string>
+    <string name="change_language">Change language to Swedish</string>
+    <string name="language_toggle_label">🇸🇪 SV</string>
+
+    <!-- Common -->
+    <string name="retry">Try again</string>
+    <string name="refresh">Refresh</string>
+    <string name="close">Close</string>
+    <string name="clear">Clear</string>
+
+    <!-- Destination -->
+    <string name="search_hint">Where are you going?</string>
+    <string-array name="popular_destinations">
+        <item>Barcelona</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>New York</item>
+        <item>Tokyo</item>
+        <item>Bangkok</item>
+        <item>Rome</item>
+        <item>Oslo</item>
+        <item>Dubai</item>
+        <item>Reykjavik</item>
+    </string-array>
+    <string name="empty_destination_title">Plan your next trip</string>
+    <string name="empty_destination_text">Search for a city to see the weather and this week\'s forecast, what to pack and what the local currency is worth in Swedish kronor.</string>
+    <string name="favorite_add">Save as favourite</string>
+    <string name="favorite_remove">Remove favourite</string>
+    <string name="local_time">Local time %1$s</string>
+    <string name="forecast_title">%1$d-day forecast</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="now_title">Right now</string>
+    <string name="feels_like">Feels like</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="uv_index">UV index</string>
+    <string name="visibility">Visibility</string>
+    <string name="uv_low">%1$d (low)</string>
+    <string name="uv_moderate">%1$d (moderate)</string>
+    <string name="uv_high">%1$d (high)</string>
+    <string name="uv_very_high">%1$d (very high)</string>
+    <string-array name="wind_directions">
+        <item>N</item><item>NE</item><item>E</item><item>SE</item>
+        <item>S</item><item>SW</item><item>W</item><item>NW</item>
+    </string-array>
+    <string name="packing_title">Packing tips for %1$s</string>
+    <string name="local_currency_title">Local currency</string>
+    <string name="currency_unknown">We don\'t know the currency for %1$s. Use the Currency tab to convert.</string>
+    <string name="currency_unknown_country">this country</string>
+    <string name="currency_same_as_home">🇸🇪 They use Swedish kronor here – no exchange needed!</string>
+    <string name="currency_no_rate">No rate found for %1$s.</string>
+    <string name="travel_money_label">Travel money in SEK</string>
+    <string name="kr_suffix">SEK</string>
+    <string name="enter_amount">Enter an amount</string>
+    <string name="rate_source">Rate from exchangerate.host • %1$s</string>
+    <string name="data_sources">Weather data: Open-Meteo • Exchange rates: exchangerate.host</string>
+
+    <!-- Currency -->
+    <string name="converter_title">Currency converter</string>
+    <string name="amount">Amount</string>
+    <string name="swap">Swap</string>
+    <string name="invalid_amount">Enter a valid amount</string>
+    <string name="popular_currencies_title">Popular currencies in SEK</string>
+    <string name="amount_in_sek">%1$s SEK</string>
+    <string name="rates_footer">Live rates from exchangerate.host\nPublished %1$s</string>
+    <string name="choose_currency">Choose currency</string>
+    <string name="currency_search_hint">Search, e.g. euro or JPY</string>
+
+    <!-- Favourites -->
+    <string name="favorites_empty_title">No saved destinations yet</string>
+    <string name="favorites_empty_text">Search for a city and tap the star to save it here. Perfect for trips you are planning!</string>
+    <string name="favorites_hint">Tap a destination to get the latest weather.</string>
+    <string name="favorite_delete">Remove %1$s</string>
+
+    <!-- Weather (WMO codes) -->
+    <string name="weather_clear_day">Clear and sunny</string>
+    <string name="weather_clear_night">Clear</string>
+    <string name="weather_mainly_clear">Mainly clear</string>
+    <string name="weather_partly_cloudy">Partly cloudy</string>
+    <string name="weather_overcast">Overcast</string>
+    <string name="weather_fog">Fog</string>
+    <string name="weather_drizzle">Drizzle</string>
+    <string name="weather_freezing_drizzle">Freezing drizzle</string>
+    <string name="weather_light_rain">Light rain</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_heavy_rain">Heavy rain</string>
+    <string name="weather_freezing_rain">Freezing rain</string>
+    <string name="weather_light_snow">Light snow</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_heavy_snow">Heavy snow</string>
+    <string name="weather_snow_grains">Snow grains</string>
+    <string name="weather_rain_showers">Rain showers</string>
+    <string name="weather_heavy_showers">Heavy showers</string>
+    <string name="weather_violent_showers">Violent showers</string>
+    <string name="weather_snow_showers">Snow showers</string>
+    <string name="weather_thunder">Thunderstorm</string>
+    <string name="weather_thunder_hail">Thunderstorm with hail</string>
+    <string name="weather_unknown">Weather</string>
+
+    <!-- Packing tips -->
+    <string name="tip_winter">🧥 Heavy winter coat, hat, gloves and warm shoes</string>
+    <string name="tip_warm_jacket">🧣 Warm jacket, scarf and hat</string>
+    <string name="tip_jacket">🧥 A jacket or thick jumper for the evenings</string>
+    <string name="tip_light_sweater">👕 A light jumper is enough for the evening</string>
+    <string name="tip_shorts">🩳 Light clothes, shorts and sandals</string>
+    <string name="tip_umbrella_days">☂️ Umbrella – rain expected %1$d of %2$d days</string>
+    <string name="tip_umbrella">☂️ Umbrella or rain jacket</string>
+    <string name="tip_snow_shoes">🥾 Waterproof shoes with good grip</string>
+    <string name="tip_thunder">⚡ Thunderstorms forecast – keep an eye on your flight status</string>
+    <string name="tip_sunscreen">🧴 High-factor sunscreen and sunglasses</string>
+    <string name="tip_sunglasses">🕶️ Sunglasses</string>
+    <string name="tip_water">💧 Water bottle – stay hydrated</string>
+    <string name="tip_wind">🌬️ Windy – bring a windproof jacket</string>
+    <string name="tip_feels_like">🌡️ Feels like %1$d° right now – dress for that</string>
+
+    <!-- Errors -->
+    <string name="error_enter_city">Enter a city, e.g. \"Barcelona\".</string>
+    <string name="error_place_not_found">Couldn\'t find a place called \"%1$s\". Check the spelling.</string>
+    <string name="error_incomplete_weather">The weather service sent incomplete data for %1$s.</string>
+    <string name="error_weather_reason">The weather service replied: %1$s</string>
+    <string name="error_weather_http">The weather service returned an error (HTTP %1$d).</string>
+    <string name="error_weather_offline">Couldn\'t reach the weather service. Check your internet connection.</string>
+    <string name="error_rates_missing_key">Exchangerate key is missing. Add EXCHANGERATE_KEY to local.properties and rebuild the app.</string>
+    <string name="error_rates_offline">Couldn\'t reach the currency service. Check your internet connection.</string>
+    <string name="error_rates_http">The currency service returned an error (HTTP %1$d).</string>
+    <string name="error_rates_empty">The currency service sent no rates.</string>
+    <string name="error_rates_invalid_key">The API key for exchange rates was rejected. Check the key in local.properties and that the account is confirmed by email.</string>
+    <string name="error_rates_inactive">The API account is inactive. Log in to exchangerate.host and check your account.</string>
+    <string name="error_rates_limit">The free plan\'s monthly limit has been reached. Try again next month.</string>
+    <string name="error_rates_not_in_plan">This feature is not included in the free plan.</string>
+    <string name="error_rates_other">Something went wrong fetching exchange rates: %1$s</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+</resources>
