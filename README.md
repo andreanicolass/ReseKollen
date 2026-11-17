@@ -1,4 +1,4 @@
-# ✈️ ReseKollen
+# ReseKollen
 
 En Android-app (Kotlin + Jetpack Compose) för dig som ska ut och resa. Sök på ett resmål och få:
 
